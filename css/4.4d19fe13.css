@@ -1,0 +1,1 @@
+.crafting-result{display:grid;grid-gap:5px;grid-template-columns:repeat(auto-fill,minmax(130px,-webkit-max-content));grid-template-columns:repeat(auto-fill,minmax(130px,max-content));padding:5px}
