@@ -1,8 +1,8 @@
 <template>
     <div class="filter-select">
-        <select v-model="selected" class="filter-select__serie" @change="onChangeSeries($event)">
+        <select v-model="selected" class="filter-select__serie select" @change="onChangeSeries($event)">
             <option :if="!selected" value="">
-                ---------
+                Todas las series
             </option>
             <option v-for="serie in series" :key="serie.id" :value="serie.id" :selected="selected === serie.id">
                 {{ serie.name }}
