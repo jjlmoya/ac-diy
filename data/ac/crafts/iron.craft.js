@@ -2,7 +2,7 @@ import MATERIALS from '@/data/ac/materials.data'
 
 export default [
     {
-        name: 'FtrIronClosetLR',
+        name: 'Armario de Hierro',
         image: 'FtrIronClosetLR.png',
         height: 1,
         width: 1,
@@ -21,7 +21,7 @@ export default [
             quantity: 20
         }]
     }, {
-        name: 'FtrIrongardenBench',
+        name: 'Banco de Jardín',
         image: 'FtrIrongardenBench.png',
         height: 1,
         width: 1,
@@ -29,7 +29,7 @@ export default [
         serie: 'nook',
         materials: []
     }, {
-        name: 'FtrIrongardenChair',
+        name: 'Silla de Jardín',
         image: 'FtrIrongardenChair.png',
         height: 1,
         width: 1,
@@ -37,7 +37,7 @@ export default [
         serie: 'nook',
         materials: []
     }, {
-        name: 'FtrIrongardenTable',
+        name: 'Mesa de Jardín',
         image: 'FtrIrongardenTable.png',
         height: 1,
         width: 1,
@@ -45,7 +45,7 @@ export default [
         serie: 'nook',
         materials: []
     }, {
-        name: 'FtrIronHanger',
+        name: 'Perchero de Hierro',
         image: 'FtrIronHanger.png',
         height: 1,
         width: 1,
@@ -67,7 +67,7 @@ export default [
             quantity: 2
         }]
     }, {
-        name: 'FtrIronShelf',
+        name: 'Estantería de Hierro',
         image: 'FtrIronShelf.png',
         height: 1,
         width: 1,
@@ -75,7 +75,7 @@ export default [
         serie: 'nook',
         materials: []
     }, {
-        name: 'FtrIronShelfW',
+        name: 'Estante de Hierro',
         image: 'FtrIronShelfW.png',
         height: 1,
         width: 1,
@@ -83,7 +83,7 @@ export default [
         serie: 'nook',
         materials: []
     }, {
-        name: 'FtrIronTableM',
+        name: 'Mesa de Hierro',
         image: 'FtrIronTableM.png',
         height: 1,
         width: 1,
@@ -91,7 +91,7 @@ export default [
         serie: 'nook',
         materials: []
     }, {
-        name: 'FtrIronwoodBedS',
+        name: 'Cama de Hierro',
         image: 'FtrIronwoodBedS.png',
         height: 1,
         width: 1,
@@ -99,7 +99,7 @@ export default [
         serie: 'nook',
         materials: []
     }, {
-        name: 'FtrIronwoodChairS',
+        name: 'Taburete Universidad',
         image: 'FtrIronwoodChairS.png',
         height: 1,
         width: 1,
@@ -107,7 +107,7 @@ export default [
         serie: 'nook',
         materials: []
     }, {
-        name: 'FtrIronwoodChest',
+        name: 'Tocador de Universidad',
         image: 'FtrIronwoodChest.png',
         height: 1,
         width: 1,
@@ -115,7 +115,7 @@ export default [
         serie: 'nook',
         materials: []
     }, {
-        name: 'FtrIronwoodClockW',
+        name: 'Reloj de Universidad',
         image: 'FtrIronwoodClockW.png',
         height: 1,
         width: 1,
@@ -151,7 +151,7 @@ export default [
             quantity: 1
         }]
     }, {
-        name: 'FtrIronwoodServingcart',
+        name: 'Carrito Universidad',
         image: 'FtrIronwoodServingcart.png',
         height: 1,
         width: 1,
@@ -159,7 +159,7 @@ export default [
         serie: 'nook',
         materials: []
     }, {
-        name: 'FtrIronwoodTableL',
+        name: 'Mesa Grande Universidad',
         image: 'FtrIronwoodTableL.png',
         height: 1,
         width: 1,
@@ -167,7 +167,7 @@ export default [
         serie: 'nook',
         materials: []
     }, {
-        name: 'FtrIronwoodTableM',
+        name: 'Mesa Universidad',
         image: 'FtrIronwoodTableM.png',
         height: 1,
         width: 1,

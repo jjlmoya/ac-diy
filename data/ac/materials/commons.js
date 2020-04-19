@@ -116,7 +116,7 @@ const STAR_FRAGMENT_XL = {
 const CONSTELATION_FRAGMENT = (name) => {
     return {
         name: 'Fragmento de Constelación ' + name,
-        image: 'star-fragment-xl.png'
+        image: 'constelation-fragment.png'
     }
 }
 

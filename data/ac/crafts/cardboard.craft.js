@@ -1,28 +1,30 @@
 import MATERIALS from '@/data/ac/materials.data'
+import SERIES from '@/data/ac/series.data'
+
 export default [
     {
-        name: 'FtrCardboardBedS',
+        name: 'Cama de Cartón',
         image: 'FtrCardboardBedS.png',
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.CARDBOARD,
         materials: []
     }, {
-        name: 'FtrCardboardChairS',
+        name: 'Silla de Cartón',
         image: 'FtrCardboardChairS.png',
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.CARDBOARD,
         materials: []
     }, {
-        name: 'FtrCardboardSofaL',
+        name: 'Sofa de Cartón',
         image: 'FtrCardboardSofaL.png',
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.CARDBOARD,
         materials: []
     }, {
         name: 'Mesa de Cartón',
@@ -30,7 +32,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.CARDBOARD,
         materials: [{
             ...MATERIALS.FURNITURE('Caja de cartón'),
             quantity: 4

@@ -300,7 +300,7 @@ export default [
             quantity: 9
         }]
     }, {
-        name: 'Pared Selva',
+        name: 'Pared Jungla',
         image: 'RoomTexWallJungle00.png',
         height: 1,
         width: 1,

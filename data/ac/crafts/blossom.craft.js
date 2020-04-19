@@ -1,5 +1,6 @@
 import MATERIALS from '@/data/ac/materials.data'
 import CATEGORY from '@/data/ac/category.data'
+import SERIES from '@/data/ac/series.data'
 
 const PILE_BLOSSOM = {
     name: 'Pila de cerezos',
@@ -7,7 +8,7 @@ const PILE_BLOSSOM = {
     height: 1,
     width: 1,
     category: [CATEGORY.FURNITURE],
-    serie: 'blossom',
+    serie: SERIES.BLOSSOM,
     materials: [
         {
             ...MATERIALS.CHERRY_PETALS,
@@ -22,7 +23,7 @@ const BLOSSOM_BONSAI = {
     height: 1,
     width: 1,
     category: [CATEGORY.FURNITURE, CATEGORY.OBJECT],
-    serie: 'blossom',
+    serie: SERIES.BLOSSOM,
     materials: [
         {
             ...MATERIALS.CHERRY_PETALS,
@@ -49,7 +50,7 @@ const BLOSSOM_FLOWERS = {
     height: 1,
     width: 1,
     category: [CATEGORY.FURNITURE],
-    serie: 'blossom',
+    serie: SERIES.BLOSSOM,
     materials: [
         {
             ...MATERIALS.CHERRY_PETALS,
@@ -72,7 +73,7 @@ const PICNIC_SET = {
     height: 1,
     width: 1,
     category: [CATEGORY.FURNITURE, CATEGORY.OBJECT],
-    serie: 'blossom',
+    serie: SERIES.BLOSSOM,
     materials: [
         {
             ...MATERIALS.CHERRY_PETALS,
@@ -87,7 +88,7 @@ const BLOSSOM_LANTERN = {
     height: 1,
     width: 1,
     category: [CATEGORY.FURNITURE],
-    serie: 'blossom',
+    serie: SERIES.BLOSSOM,
     materials: [
         {
             ...MATERIALS.CHERRY_PETALS,
@@ -106,7 +107,7 @@ const BLOSSOM_CLOCK = {
     height: 1,
     width: 1,
     category: [CATEGORY.WALL_OBJECT],
-    serie: 'blossom',
+    serie: SERIES.BLOSSOM,
     materials: [
         {
             ...MATERIALS.CHERRY_PETALS,
@@ -125,7 +126,7 @@ const BLOSSOM_FLOWERS_WALL = {
     height: 1,
     width: 1,
     category: [CATEGORY.WALL_FLOOR],
-    serie: 'blossom',
+    serie: SERIES.BLOSSOM,
     materials: [
         {
             ...MATERIALS.CHERRY_PETALS,
@@ -143,7 +144,7 @@ const BLOSSOM_WALL = {
     height: 1,
     width: 1,
     category: [CATEGORY.WALL_FLOOR],
-    serie: 'blossom',
+    serie: SERIES.BLOSSOM,
     materials: [
         {
             ...MATERIALS.CHERRY_PETALS,
@@ -162,7 +163,7 @@ const BLOSSOM_FLOWERS_FLOOR = {
     height: 1,
     width: 1,
     category: [CATEGORY.WALL_FLOOR],
-    serie: 'blossom',
+    serie: SERIES.BLOSSOM,
     materials: [
         {
             ...MATERIALS.CHERRY_PETALS,
@@ -181,7 +182,7 @@ const BLOSSOM_FLOOR = {
     height: 1,
     width: 1,
     category: [CATEGORY.WALL_FLOOR],
-    serie: 'blossom',
+    serie: SERIES.BLOSSOM,
     materials: [
         {
             ...MATERIALS.CHERRY_PETALS,
@@ -200,7 +201,7 @@ const BLOSSOM_UMBRELLA = {
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'blossom',
+    serie: SERIES.BLOSSOM,
     materials: [
         {
             ...MATERIALS.CHERRY_PETALS,
@@ -215,7 +216,7 @@ const BLOSSOM_PURSE = {
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'blossom',
+    serie: SERIES.BLOSSOM,
     materials: [
         {
             ...MATERIALS.CHERRY_PETALS,
@@ -230,7 +231,7 @@ const BLOSSOM_WAND = {
     height: 1,
     width: 1,
     category: [CATEGORY.TOOL],
-    serie: 'blossom',
+    serie: SERIES.BLOSSOM,
     materials: [
         {
             ...MATERIALS.CHERRY_PETALS,

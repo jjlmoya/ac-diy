@@ -1,5 +1,7 @@
 import MATERIALS from '@/data/ac/materials.data'
 import CATEGORY from '@/data/ac/category.data'
+import SERIES from '@/data/ac/series.data'
+
 export default [
     {
         name: 'Mochila de Cesta',
@@ -7,7 +9,7 @@ export default [
         height: 1,
         width: 1,
         category: [CATEGORY.CLOTH],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 6
@@ -19,7 +21,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 3
@@ -30,7 +32,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 7
@@ -41,7 +43,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 3
@@ -50,12 +52,12 @@ export default [
             quantity: 2
         }]
     }, {
-        name: 'FtrBambooCarstop',
+        name: 'Resalto Bambú',
         image: 'FtrBambooCarstop.png',
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: []
     }, {
         name: 'Banco de Bambú',
@@ -63,7 +65,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU,
             quantity: 8
@@ -74,7 +76,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 3
@@ -88,7 +90,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 1
@@ -99,7 +101,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 8
@@ -110,7 +112,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: []
     }, {
         name: 'Altavoz de Bambú',
@@ -118,7 +120,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 3
@@ -132,7 +134,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 7
@@ -146,7 +148,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: []
     }, {
         name: 'Lámpara Brote de B.',
@@ -154,7 +156,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 4
@@ -171,7 +173,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 7
@@ -185,18 +187,18 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU,
             quantity: 5
         }]
     }, {
-        name: 'Lámpara de Bambú',
+        name: 'Lámparita de Bambú',
         image: 'FtrBambooSurprisedbox.png',
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 6
@@ -208,7 +210,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 6
@@ -219,7 +221,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU,
             quantity: 6
@@ -230,7 +232,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 6
@@ -241,7 +243,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'bamboo',
+        serie: SERIES.BAMBOO,
         materials: [{
             ...MATERIALS.BAMBU,
             quantity: 2

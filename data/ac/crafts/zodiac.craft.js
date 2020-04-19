@@ -1,4 +1,5 @@
 import MATERIALS from '@/data/ac/materials.data'
+import SERIES from '@/data/ac/series.data'
 
 export default [{
     name: 'Jarron Acuario',
@@ -6,7 +7,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'zodiac',
+    serie: SERIES.ZODIAC,
     materials: []
 }, {
     name: 'Mecedora Aries',
@@ -14,7 +15,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'zodiac',
+    serie: SERIES.ZODIAC,
     materials: [{
         ...MATERIALS.STAR_FRAGMENT,
         quantity: 3
@@ -34,7 +35,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'zodiac',
+    serie: SERIES.ZODIAC,
     materials: []
 }, {
     name: 'Escultura Capricornio',
@@ -42,7 +43,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'zodiac',
+    serie: SERIES.ZODIAC,
     materials: []
 }, {
     name: 'Armario Géminis',
@@ -50,7 +51,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'zodiac',
+    serie: SERIES.ZODIAC,
     materials: []
 }, {
     name: 'Cuadro Leo',
@@ -58,7 +59,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'zodiac',
+    serie: SERIES.ZODIAC,
     materials: []
 }, {
     name: 'Balanza Libra',
@@ -66,7 +67,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'zodiac',
+    serie: SERIES.ZODIAC,
     materials: []
 }, {
     name: 'Pedestal Piscis',
@@ -74,7 +75,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'zodiac',
+    serie: SERIES.ZODIAC,
     materials: []
 }, {
     name: 'Arco de Sagitario',
@@ -82,7 +83,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'zodiac',
+    serie: SERIES.ZODIAC,
     materials: []
 }, {
     name: 'Escultura Escorpio',
@@ -90,7 +91,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'zodiac',
+    serie: SERIES.ZODIAC,
     materials: []
 }, {
     name: 'Fuente Tauro',
@@ -98,7 +99,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'zodiac',
+    serie: SERIES.ZODIAC,
     materials: []
 }, {
     name: 'Arpa Virgo',
@@ -106,6 +107,6 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'zodiac',
+    serie: SERIES.ZODIAC,
     materials: []
 }]

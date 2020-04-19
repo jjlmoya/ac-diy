@@ -1,4 +1,5 @@
 import MATERIALS from '@/data/ac/materials.data'
+import SERIES from '@/data/ac/series.data'
 
 export default [{
     name: 'Cama Individual de Madera',
@@ -6,7 +7,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'nook',
+    serie: SERIES.WOODEN,
     materials: [{
         ...MATERIALS.WOOD,
         quantity: 18
@@ -17,7 +18,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'nook',
+    serie: SERIES.WOODEN,
     materials: []
 }, {
     name: 'Silla de Madera',
@@ -25,7 +26,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'nook',
+    serie: SERIES.WOODEN,
     materials: [{
         ...MATERIALS.WOOD,
         quantity: 6
@@ -36,7 +37,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'nook',
+    serie: SERIES.WOODEN,
     materials: [{
         ...MATERIALS.WOOD,
         quantity: 16
@@ -47,7 +48,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'nook',
+    serie: SERIES.WOODEN,
     materials: [{
         ...MATERIALS.WOOD,
         quantity: 12
@@ -58,7 +59,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'nook',
+    serie: SERIES.WOODEN,
     materials: []
 }, {
     name: 'Espejito de Mesa de MAdera',
@@ -66,7 +67,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'nook',
+    serie: SERIES.WOODEN,
     materials: [{
         ...MATERIALS.WOOD,
         quantity: 3
@@ -80,7 +81,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'nook',
+    serie: SERIES.WOODEN,
     materials: []
 }, {
     name: 'FtrWoodenTableL',
@@ -88,7 +89,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'nook',
+    serie: SERIES.WOODEN,
     materials: []
 }, {
     name: 'FtrWoodenTableM',
@@ -96,7 +97,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'nook',
+    serie: SERIES.WOODEN,
     materials: []
 }, {
     name: 'Mesita de Madera',
@@ -104,7 +105,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'nook',
+    serie: SERIES.WOODEN,
     materials: [{
         ...MATERIALS.WOOD,
         quantity: 6
@@ -115,7 +116,7 @@ export default [{
     height: 1,
     width: 1,
     category: [],
-    serie: 'nook',
+    serie: SERIES.WOODEN,
     materials: [{
         ...MATERIALS.WOOD,
         quantity: 8

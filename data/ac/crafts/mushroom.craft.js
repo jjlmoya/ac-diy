@@ -1,5 +1,27 @@
-// import MATERIALS from '@/data/ac/materials.data'
+import MATERIALS from '@/data/ac/materials.data'
 // import CATEGORY from '@/data/ac/category.data'
+const UNKNOWN = [
+    {
+        ...MATERIALS.ELEGANT_MUSHROOM,
+        quantity: '?'
+    },
+    {
+        ...MATERIALS.FLAT_MUSHROOM,
+        quantity: '?'
+    },
+    {
+        ...MATERIALS.ROUND_MUSHROOM,
+        quantity: '?'
+    },
+    {
+        ...MATERIALS.THIN_MUSHROOM,
+        quantity: '?'
+    },
+    {
+        ...MATERIALS.TRUFFLE,
+        quantity: '?'
+    }
+]
 export default [
     {
         name: 'FtrMushroomChairS',
@@ -8,7 +30,7 @@ export default [
         width: 1,
         category: [],
         serie: 'nook',
-        materials: []
+        materials: UNKNOWN
     }, {
         name: 'FtrMushroomLamp',
         image: 'FtrMushroomLamp.png',
@@ -16,7 +38,7 @@ export default [
         width: 1,
         category: [],
         serie: 'nook',
-        materials: []
+        materials: UNKNOWN
     }, {
         name: 'FtrMushroomParasol',
         image: 'FtrMushroomParasol.png',
@@ -24,7 +46,7 @@ export default [
         width: 1,
         category: [],
         serie: 'nook',
-        materials: []
+        materials: UNKNOWN
     }, {
         name: 'FtrMushroomPulpwood',
         image: 'FtrMushroomPulpwood.png',
@@ -32,7 +54,7 @@ export default [
         width: 1,
         category: [],
         serie: 'nook',
-        materials: []
+        materials: UNKNOWN
     }, {
         name: 'FtrMushroomScreen',
         image: 'FtrMushroomScreen.png',
@@ -40,7 +62,7 @@ export default [
         width: 1,
         category: [],
         serie: 'nook',
-        materials: []
+        materials: UNKNOWN
     }, {
         name: 'FtrMushroomTableL',
         image: 'FtrMushroomTableL.png',
@@ -48,6 +70,6 @@ export default [
         width: 1,
         category: [],
         serie: 'nook',
-        materials: []
+        materials: UNKNOWN
     }
 ]

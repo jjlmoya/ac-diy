@@ -1,5 +1,7 @@
 import MATERIALS from '@/data/ac/materials.data'
 // import CATEGORY from '@/data/ac/category.data'
+import SERIES from '@/data/ac/series.data'
+
 export default [
     {
         name: 'FtrGardenChairNatural',
@@ -7,7 +9,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GARDEN,
         materials: [{
             ...MATERIALS.SOLID_WOOD,
             quantity: 6
@@ -21,7 +23,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GARDEN,
         materials: [{
             ...MATERIALS.STONE,
             quantity: 15
@@ -32,7 +34,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GARDEN,
         materials: [{
             ...MATERIALS.STONE,
             quantity: 20
@@ -43,7 +45,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GARDEN,
         materials: []
     }, {
         name: 'FtrGardenrockTall',
@@ -51,7 +53,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GARDEN,
         materials: []
     }, {
         name: 'Mesa Madera Natual',
@@ -59,7 +61,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GARDEN,
         materials: [{
             ...MATERIALS.SOLID_WOOD,
             quantity: 9
@@ -73,7 +75,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GARDEN,
         materials: []
     }, {
         name: 'FtrGardenwagon',
@@ -81,7 +83,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GARDEN,
         materials: []
     }
 ]

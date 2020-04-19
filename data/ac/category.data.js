@@ -42,6 +42,11 @@ const EVENT = {
     image: ''
 }
 
+const DOOR = {
+    name: 'Evento',
+    image: ''
+}
+
 const EASTER_EGG = {
     name: 'Huevo de Pascua',
     image: ''
@@ -62,6 +67,11 @@ const SHELL = {
     image: ''
 }
 
+const FENCES = {
+    name: 'Concha de Mar',
+    image: ''
+}
+
 export default {
     FURNITURE,
     TOOL,
@@ -75,6 +85,8 @@ export default {
     EASTER_EGG,
     XMAS,
     BLOSSOM,
-    SHELL
+    SHELL,
+    DOOR,
+    FENCES
 
 }

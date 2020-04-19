@@ -1,5 +1,6 @@
 import MATERIALS from '@/data/ac/materials.data'
 import CATEGORY from '@/data/ac/category.data'
+import SERIES from '@/data/ac/series.data'
 
 export default [
     {
@@ -8,7 +9,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GOLD,
         materials: [{
             ...MATERIALS.GOLD_NUGGET,
             quantity: 1
@@ -19,7 +20,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GOLD,
         materials: []
     }, {
         name: 'Candelabro de Oro',
@@ -27,7 +28,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GOLD,
         materials: [{
             ...MATERIALS.GOLD_NUGGET,
             quantity: 2
@@ -38,7 +39,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GOLD,
         materials: []
     }, {
         name: 'Cubertería de Oro',
@@ -46,7 +47,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GOLD,
         materials: []
     }, {
         name: 'Lavabo Dorado',
@@ -54,7 +55,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GOLD,
         materials: []
     }, {
         name: 'Escarabajo de Oro',
@@ -62,7 +63,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GOLD,
         materials: [{
             ...MATERIALS.GOLD_NUGGET,
             quantity: 3
@@ -73,7 +74,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GOLD,
         materials: []
     }, {
         name: 'Botas de Oro',
@@ -81,7 +82,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GOLD,
         materials: []
     }, {
         name: 'Armadura de Oro',
@@ -89,7 +90,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GOLD,
         materials: []
     }, {
         name: 'Casco de Oro',
@@ -97,7 +98,7 @@ export default [
         height: 1,
         width: 1,
         category: [CATEGORY.CLOTH],
-        serie: 'nook',
+        serie: SERIES.GOLD,
         materials: []
     }, {
         name: 'Trofeo Arowana de Oro',
@@ -105,7 +106,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GOLD,
         materials: [{
             ...MATERIALS.GOLD_NUGGET,
             quantity: 3
@@ -116,7 +117,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GOLD,
         materials: [{
             ...MATERIALS.GOLD_NUGGET,
             quantity: 1

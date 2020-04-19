@@ -1,12 +1,13 @@
 import MATERIALS from '@/data/ac/materials.data'
-// import CATEGORY from '@/data/ac/category.data'
+import CATEGORY from '@/data/ac/category.data'
+import SERIES from '@/data/ac/series.data'
 export default [
     {
         name: 'Escudo de Armas',
         image: 'FtrDoorOrnamentCrest.png',
         height: 1,
         width: 1,
-        category: [],
+        category: [CATEGORY.WALL_OBJECT, CATEGORY.DOOR],
         serie: 'nook',
         materials: [{
             ...MATERIALS.IRON_NUGGET,
@@ -17,7 +18,7 @@ export default [
         image: 'FtrDoorOrnamentFossil.png',
         height: 1,
         width: 1,
-        category: [],
+        category: [CATEGORY.WALL_OBJECT, CATEGORY.DOOR],
         serie: 'nook',
         materials: [{
             ...MATERIALS.FOSSIL,
@@ -32,7 +33,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.IRON,
         materials: [{
             ...MATERIALS.IRON_NUGGET,
             quantity: 4
@@ -43,7 +44,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.LOG,
         materials: [{
             ...MATERIALS.WOOD,
             quantity: 6
@@ -68,7 +69,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.WIND_ORANGE,
             quantity: 3
@@ -85,7 +86,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.WIND_BLUE,
             quantity: 3
@@ -102,7 +103,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.WIND_PURPLE,
             quantity: 10
@@ -113,7 +114,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.BRANCH,
             quantity: 10
@@ -124,7 +125,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.COSMOS_RED,
             quantity: 3
@@ -141,7 +142,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.COSMOS_RED,
             quantity: 3
@@ -158,7 +159,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.COSMOS_BLACK,
             quantity: 10
@@ -169,7 +170,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.PEACH,
             quantity: 2
@@ -192,7 +193,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.JACINT_WHITE,
             quantity: 3
@@ -209,7 +210,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.JACINT_BLUE,
             quantity: 3
@@ -226,7 +227,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.JACINT_PURPLE,
             quantity: 10
@@ -237,7 +238,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.ICE,
         materials: []
     }, {
         name: 'Corona de Crisantemos',
@@ -245,7 +246,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.MUM_RED,
             quantity: 3
@@ -262,7 +263,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.MUM_ORANGE,
             quantity: 3
@@ -279,7 +280,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.MUM_GREEN,
             quantity: 10
@@ -290,7 +291,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.MUSHROOM,
         materials: []
     }, {
         name: 'Corona Navideña',
@@ -298,7 +299,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.ICE,
         materials: []
     }, {
         name: 'Corona Viola',
@@ -306,7 +307,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.VIOLET_WHITE,
             quantity: 3
@@ -323,7 +324,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.VIOLET_ORANGE,
             quantity: 3
@@ -340,7 +341,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.VIOLET_BLUE,
             quantity: 5
@@ -354,7 +355,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.ROSE_WHITE,
             quantity: 3
@@ -371,7 +372,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.ROSE_GOLD,
             quantity: 10
@@ -382,7 +383,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.ROSE_PINK,
             quantity: 3
@@ -399,7 +400,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.ROSE_PURPLE,
             quantity: 5
@@ -413,7 +414,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.ROSE_BLUE,
             quantity: 10
@@ -424,7 +425,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.SHELL,
         materials: []
     }, {
         name: 'Corona Tulipán',
@@ -432,7 +433,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.TULIP_RED,
             quantity: 3
@@ -449,7 +450,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.TULIP_PINK,
             quantity: 3
@@ -466,7 +467,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.TULIP_BLACK,
             quantity: 10
@@ -477,7 +478,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.LILY_WHITE,
             quantity: 3
@@ -494,7 +495,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.LILY_PINK,
             quantity: 3
@@ -511,13 +512,13 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.LILY_BLACK,
             quantity: 10
         }]
     }, {
-        name: 'FtrDoorPlateBone',
+        name: 'Placa Hueso',
         image: 'FtrDoorPlateBone.png',
         height: 1,
         width: 1,

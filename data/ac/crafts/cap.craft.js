@@ -1,26 +1,27 @@
 import MATERIALS from '@/data/ac/materials.data'
 import CATEGORY from '@/data/ac/category.data'
+import SERIES from '@/data/ac/series.data'
 
 const CAP_COSTUME_SNOWBALL = {
-    name: 'CAP_COSTUME_SNOWBALL',
+    name: 'Gorro Muñeco de Nieve',
     image: 'CapCostumeSnowball0.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
+    serie: SERIES.ICE,
     materials: []
 }
 const CAP_COSTUME_STAR = {
-    name: 'CAP_COSTUME_STAR',
+    name: 'Gorro Estrella',
     image: 'CapCostumeStar0.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
+    serie: SERIES.STAR,
     materials: []
 }
 const CAP_KNIGHT_IRON = {
-    name: 'CAP_KNIGHT_IRON',
+    name: 'Casco de Hierro',
     image: 'CapFullfaceKnightIron.png',
     height: 1,
     width: 1,
@@ -29,7 +30,7 @@ const CAP_KNIGHT_IRON = {
     materials: []
 }
 const CAP_AJIRO_BEIGE = {
-    name: 'CAP_AJIRO_BEIGE',
+    name: 'Ajiro Beige',
     image: 'CapHatAjiroBeige.png',
     height: 1,
     width: 1,
@@ -43,7 +44,7 @@ const CAP_APPLE = {
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
+    serie: SERIES.FRUIT,
     materials: [{
         ...MATERIALS.APPLE,
         quantity: 5
@@ -55,7 +56,7 @@ const CAP_CHERRY = {
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
+    serie: SERIES.FRUIT,
     materials: [{
         ...MATERIALS.CHERRY,
         quantity: 5
@@ -67,7 +68,7 @@ const CAP_ORANGE = {
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
+    serie: SERIES.FRUIT,
     materials: [{
         ...MATERIALS.ORANGE,
         quantity: 5
@@ -79,7 +80,7 @@ const CAP_PEACH = {
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
+    serie: SERIES.FRUIT,
     materials: [{
         ...MATERIALS.PEACH,
         quantity: 5
@@ -91,7 +92,7 @@ const CAP_PEAR = {
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
+    serie: SERIES.FRUIT,
     materials: [{
         ...MATERIALS.PEAR,
         quantity: 5
@@ -103,7 +104,7 @@ const CAP_SANDOGASA = {
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
+    serie: SERIES.GRASS,
     materials: [{
         ...MATERIALS.HERB,
         quantity: 10
@@ -115,7 +116,7 @@ const CAP_MASK_LEAF = {
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
+    serie: SERIES.GRASS,
     materials: [{
         ...MATERIALS.HERB,
         quantity: 10
@@ -123,93 +124,170 @@ const CAP_MASK_LEAF = {
 }
 
 const CAP_ANEMONE_1 = {
-    name: 'CAP_ANEMONE_1',
+    name: 'Guirnalda Anémona',
     image: 'CapOrnamentAnemone1.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
-    materials: []
+    serie: SERIES.FLOWER,
+    materials: [
+        {
+            ...MATERIALS.WIND_WHITE,
+            quantity: 2
+        },
+        {
+            ...MATERIALS.WIND_RED,
+            quantity: 2
+        },
+        {
+            ...MATERIALS.WIND_ORANGE,
+            quantity: 2
+        }
+    ]
 }
 
 const CAP_ANEMONE_2 = {
-    name: 'CAP_ANEMONE_2',
+    name: 'Guirnalda Anémona 2',
     image: 'CapOrnamentAnemone2.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
-    materials: []
+    serie: SERIES.FLOWER,
+    materials: [
+        {
+            ...MATERIALS.WIND_PINK,
+            quantity: 3
+        },
+        {
+            ...MATERIALS.WIND_BLUE,
+            quantity: 3
+        }]
 }
 
 const CAP_ANEMONE_3 = {
-    name: 'CAP_ANEMONE_3',
+    name: 'Guirnalda Anémona 3',
     image: 'CapOrnamentAnemone3.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
-    materials: []
+    serie: SERIES.FLOWER,
+    materials: [
+        {
+            ...MATERIALS.WIND_PURPLE,
+            quantity: 6
+        }]
 }
 
 const CAP_COSMOS_1 = {
-    name: 'CAP_COSMOS_1',
+    name: 'Guirlanlda Cosmos',
     image: 'CapOrnamentCosmos1.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
-    materials: []
+    serie: SERIES.FLOWER,
+    materials: [
+        {
+            ...MATERIALS.COSMOS_WHITE,
+            quantity: 2
+        },
+        {
+            ...MATERIALS.COSMOS_RED,
+            quantity: 2
+        },
+        {
+            ...MATERIALS.COSMOS_YELLOW,
+            quantity: 2
+        }]
 }
 
 const CAP_COSMOS_2 = {
-    name: 'CAP_COSMOS_2',
+    name: 'Guirnalda Cosmos 2',
     image: 'CapOrnamentCosmos2.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
-    materials: []
+    serie: SERIES.FLOWER,
+    materials: [
+        {
+            ...MATERIALS.COSMOS_PINK,
+            quantity: 3
+        },
+        {
+            ...MATERIALS.COSMOS_ORANGE,
+            quantity: 3
+        }]
 }
 
 const CAP_COSMOS_3 = {
-    name: 'CAP_COSMOS_3',
+    name: 'Guirnalda Cosmos 3',
     image: 'CapOrnamentCosmos3.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
-    materials: []
+    serie: SERIES.FLOWER,
+    materials: [
+        {
+            ...MATERIALS.COSMOS_BLACK,
+            quantity: 6
+        }]
 }
 
 const CAP_HYACINTH_1 = {
-    name: 'CAP_HYACINTH_1',
+    name: 'Guirnalda Jacintos',
     image: 'CapOrnamentHyacinth1.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
-    materials: []
+    serie: SERIES.FLOWER,
+    materials: [
+        {
+            ...MATERIALS.JACINT_WHITE,
+            quantity: 2
+        },
+        {
+            ...MATERIALS.JACINT_RED,
+            quantity: 2
+        },
+        {
+            ...MATERIALS.JACINT_YELLOW,
+            quantity: 2
+        }]
 }
 
 const CAP_HYACINTH_2 = {
-    name: 'CAP_HYACINTH_2',
+    name: 'Guirnalda Jacintos 2',
     image: 'CapOrnamentHyacinth2.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
-    materials: []
+    serie: SERIES.FLOWER,
+    materials: [
+        {
+            ...MATERIALS.JACINT_BLUE,
+            quantity: 2
+        },
+        {
+            ...MATERIALS.JACINT_ORANGE,
+            quantity: 2
+        },
+        {
+            ...MATERIALS.JACINT_PINK,
+            quantity: 2
+        }]
 }
 
 const CAP_HYACINTH_3 = {
-    name: 'CAP_HYACINTH_3',
+    name: 'Guirnalda Jacintos 3',
     image: 'CapOrnamentHyacinth3.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
-    materials: []
+    serie: SERIES.FLOWER,
+    materials: [
+        {
+            ...MATERIALS.JACINT_BLACK,
+            quantity: 6
+        }]
 }
 
 export default [
@@ -234,31 +312,3 @@ export default [
     CAP_HYACINTH_2,
     CAP_HYACINTH_3
 ]
-/*
-CapOrnamentMum1.png
-CapOrnamentMum2.png
-CapOrnamentMum2(1).png
-CapOrnamentMum3.png
-CapOrnamentMum3(1).png
-CapOrnamentPansy1.png
-CapOrnamentPansy1(1).png
-CapOrnamentPansy2.png
-CapOrnamentPansy2(1).png
-CapOrnamentPansy3.png
-CapOrnamentPansy3(1).png
-CapOrnamentRose1.png
-CapOrnamentRose1(1).png
-CapOrnamentRose2.png
-CapOrnamentRose2(1).png
-CapOrnamentRose3.png
-CapOrnamentRose3(1).png
-CapOrnamentRose4.png
-CapOrnamentRose4(1).png
-CapOrnamentRose5.png
-CapOrnamentTulip1.png
-CapOrnamentTulip2.png
-CapOrnamentTulip3.png
-CapOrnamentYuri1.png
-CapOrnamentYuri2.png
-CapOrnamentYuri3.png
-*/

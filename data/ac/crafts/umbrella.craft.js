@@ -1,4 +1,5 @@
 import MATERIALS from '@/data/ac/materials.data'
+import SERIES from '@/data/ac/series.data'
 
 export default [
     {
@@ -16,7 +17,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.APPLE,
             quantity: 7
@@ -27,7 +28,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.MAPLE,
         materials: [{
             ...MATERIALS.AUTUMN_LEAVE,
             quantity: 7
@@ -38,7 +39,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.CHERRY_PETALS,
             quantity: 7
@@ -49,7 +50,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.GRASS,
         materials: [{
             ...MATERIALS.HERB,
             quantity: 15
@@ -60,10 +61,10 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.MUSHROOM,
         materials: [{
-            ...MATERIALS.MUSHROOM,
-            quantity: 7
+            ...MATERIALS.ELEGANT_MUSHROOM,
+            quantity: '?'
         }]
     }, {
         name: 'Paraguas Naranja',
@@ -71,7 +72,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.ORANGE,
             quantity: 7
@@ -82,7 +83,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.PEACH,
             quantity: 7
@@ -93,7 +94,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.PEAR,
             quantity: 7

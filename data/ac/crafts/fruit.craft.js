@@ -1,4 +1,5 @@
 import MATERIALS from '@/data/ac/materials.data'
+import SERIES from '@/data/ac/series.data'
 
 export default [
     {
@@ -7,7 +8,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: []
     }, {
         name: 'Cama Pera',
@@ -15,7 +16,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.PEAR,
             quantity: 10
@@ -29,7 +30,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.PEAR,
             quantity: 10
@@ -43,7 +44,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.APPLE,
             quantity: 10
@@ -57,7 +58,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.PEAR,
             quantity: 10
@@ -71,7 +72,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.ORANGE,
             quantity: 10
@@ -85,7 +86,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.PEAR,
             quantity: 10
@@ -99,7 +100,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.CHERRY,
             quantity: 10
@@ -113,7 +114,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.CHERRY_PETALS,
             quantity: 10
@@ -127,7 +128,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.ORANGE,
             quantity: 10
@@ -141,7 +142,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.APPLE,
             quantity: 10
@@ -155,7 +156,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [
             {
                 ...MATERIALS.PEAR,
@@ -185,7 +186,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.PEAR,
             quantity: 7
@@ -196,7 +197,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: []
     }, {
         name: 'Alfombra Manzana',
@@ -204,7 +205,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.APPLE,
             quantity: 7
@@ -215,7 +216,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: []
     }, {
         name: 'Alfombra Melocotón',
@@ -223,7 +224,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.PEAR,
             quantity: 7
@@ -234,7 +235,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.PEACH,
             quantity: 7
@@ -245,7 +246,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: []
     }, {
         name: 'Top Naranja',
@@ -253,7 +254,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: []
     }, {
         name: 'Alfombra Cereza',
@@ -261,7 +262,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.CHERRY_PETALS,
             quantity: 7
@@ -272,7 +273,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.FRUIT,
         materials: [{
             ...MATERIALS.ORANGE,
             quantity: 7

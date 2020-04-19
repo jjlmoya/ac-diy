@@ -2,7 +2,7 @@ import MATERIALS from '@/data/ac/materials.data'
 
 export default [
     {
-        name: 'FtrLogBedS',
+        name: 'Tumbona leñ',
         image: 'FtrLogBedS.png',
         height: 1,
         width: 1,
@@ -35,7 +35,7 @@ export default [
             quantity: 1
         }]
     }, {
-        name: 'FtrLogShelf',
+        name: 'Estantería Leño',
         image: 'FtrLogShelf.png',
         height: 1,
         width: 1,
@@ -54,7 +54,7 @@ export default [
             quantity: 2
         }]
     }, {
-        name: 'FtrLogSofaS',
+        name: 'Sillón Leño',
         image: 'FtrLogSofaS.png',
         height: 1,
         width: 1,

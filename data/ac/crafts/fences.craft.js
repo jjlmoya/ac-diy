@@ -1,11 +1,11 @@
 import MATERIALS from '@/data/ac/materials.data'
-// import CATEGORY from '@/data/ac/category.data'
+import CATEGORY from '@/data/ac/category.data'
 export default [{
     name: 'Valla de Bambú',
     image: 'ItemFenceBamboo.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FENCES],
     serie: 'nook',
     materials: [
         {
@@ -18,7 +18,7 @@ export default [{
     image: 'ItemFenceBarbedWire.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FENCES],
     serie: 'nook',
     materials: [{
         ...MATERIALS.SOLID_WOOD,
@@ -32,7 +32,7 @@ export default [{
     image: 'ItemFenceChinese.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FENCES],
     serie: 'nook',
     materials: [{
         ...MATERIALS.WOOD,
@@ -46,7 +46,7 @@ export default [{
     image: 'ItemFenceDriedStraw.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FENCES],
     serie: 'nook',
     materials: [{
         ...MATERIALS.HERB,
@@ -60,7 +60,7 @@ export default [{
     image: 'ItemFenceHorizontalWood.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FENCES],
     serie: 'nook',
     materials: [{
         ...MATERIALS.WOOD,
@@ -71,7 +71,7 @@ export default [{
     image: 'ItemFenceIronAndStone.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FENCES],
     serie: 'nook',
     materials: [
         {
@@ -88,7 +88,7 @@ export default [{
     image: 'ItemFenceJapanese.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FENCES],
     serie: 'nook',
     materials: [{
         ...MATERIALS.IRON_NUGGET,
@@ -106,7 +106,7 @@ export default [{
     image: 'ItemFenceLatiiceNatural.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FENCES],
     serie: 'nook',
     materials: [{
         ...MATERIALS.FLEXIBLE_WOOD,
@@ -117,7 +117,7 @@ export default [{
     image: 'ItemFenceLog.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FENCES],
     serie: 'nook',
     materials: [{
         ...MATERIALS.SOLID_WOOD,
@@ -128,7 +128,7 @@ export default [{
     image: 'ItemFenceNatural.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FENCES],
     serie: 'nook',
     materials: [{
         ...MATERIALS.FLEXIBLE_WOOD,
@@ -139,7 +139,7 @@ export default [{
     image: 'ItemFencePegRope.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FENCES],
     serie: 'nook',
     materials: [{
         ...MATERIALS.IRON_NUGGET,
@@ -150,7 +150,7 @@ export default [{
     image: 'ItemFenceSharply.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FENCES],
     serie: 'nook',
     materials: [{
         ...MATERIALS.SOLID_WOOD,
@@ -161,7 +161,7 @@ export default [{
     image: 'ItemFenceSteel.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FENCES],
     serie: 'nook',
     materials: [{
         ...MATERIALS.IRON_NUGGET,
@@ -172,7 +172,7 @@ export default [{
     image: 'ItemFenceStone.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FENCES],
     serie: 'nook',
     materials: [{
         ...MATERIALS.STONE,
@@ -183,7 +183,7 @@ export default [{
     image: 'ItemFenceVerticalWood.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FENCES],
     serie: 'nook',
     materials: [{
         ...MATERIALS.WOOD,
@@ -194,7 +194,7 @@ export default [{
     image: 'ItemFenceWallRenga.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FENCES],
     serie: 'nook',
     materials: [{
         ...MATERIALS.CLAY,

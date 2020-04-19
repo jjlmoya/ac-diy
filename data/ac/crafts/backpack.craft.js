@@ -2,13 +2,16 @@ import MATERIALS from '@/data/ac/materials.data'
 import CATEGORY from '@/data/ac/category.data'
 import SERIES from '@/data/ac/series.data'
 
+console.log(SERIES)
+console.log(SERIES.ACORN)
+
 const BACKPACK_GRASS = {
     name: 'Mochila de Mimbre',
     image: 'BagBackpackGrass0.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'grass',
+    serie: SERIES.GRASS,
     materials: [{
         ...MATERIALS.HERB,
         quantity: 20
@@ -16,37 +19,43 @@ const BACKPACK_GRASS = {
 }
 
 const BACKPACK_WOOD = {
-    name: 'BACKPACK_WOOD',
+    name: 'Bolsito Madera',
     image: 'BagBackpackWood0.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'wood',
+    serie: SERIES.WOODEN,
     materials: []
 }
 
 const BACKPACK_ACORN = {
-    name: 'BACKPACK_ACORN',
+    name: 'Bolsito Bellota',
     image: 'BagShoulderAcorn0.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'acorn',
-    materials: []
+    serie: SERIES.ACORN,
+    materials: [{
+        ...MATERIALS.ACORN,
+        quantity: 6
+    }]
 }
 
 const BACKPACK_MAPLE = {
-    name: 'BACKPACK_MAPLE',
+    name: 'Bolsito Arce',
     image: 'BagShoulderMaple0.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
     serie: SERIES.MAPLE,
-    materials: []
+    materials: [{
+        ...MATERIALS.MAPLE,
+        quantity: 6
+    }]
 }
 
 const BACKPACK_SHELL = {
-    name: 'BACKPACK_SHELL',
+    name: 'Bolsito Conchas Marinas',
     image: 'BagShoulderShell0.png',
     height: 1,
     width: 1,
@@ -56,23 +65,29 @@ const BACKPACK_SHELL = {
 }
 
 const BACKPACK_SNOW = {
-    name: 'BACKPACK_SHELL',
+    name: 'Bolsito de Hielo',
     image: 'BagShoulderSnow0.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
     serie: SERIES.ICE,
-    materials: []
+    materials: [{
+        ...MATERIALS.ICE,
+        quantity: 6
+    }]
 }
 
 const BACKPACK_STAR = {
-    name: 'BACKPACK_STAR',
+    name: 'Bolsito Estrella',
     image: 'BagShoulderStar0.png',
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
     serie: SERIES.STAR,
-    materials: []
+    materials: [{
+        ...MATERIALS.STAR_FRAGMENT,
+        quantity: 6
+    }]
 }
 
 export default [

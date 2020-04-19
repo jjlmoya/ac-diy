@@ -1,4 +1,5 @@
 import MATERIALS from '@/data/ac/materials.data'
+import SERIES from '@/data/ac/series.data'
 
 export default [
     {
@@ -7,7 +8,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'flower',
+        serie: SERIES.FLOWER,
         materials: []
     }, {
         name: 'Cama Rosa',
@@ -15,7 +16,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'flower',
+        serie: SERIES.FLOWER,
         materials: []
     }, {
         name: 'Ventilador Anémona',
@@ -23,7 +24,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'flower',
+        serie: SERIES.FLOWER,
         materials: []
     }, {
         name: 'Lámpara de Jacinto',
@@ -31,7 +32,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'flower',
+        serie: SERIES.FLOWER,
         materials: []
     }, {
         name: 'Gramófono Lirio',
@@ -39,7 +40,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'flower',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.LILY_WHITE,
             quantity: 5
@@ -56,7 +57,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'flower',
+        serie: SERIES.FLOWER,
         materials: []
     }, {
         name: 'FtrFlowerStoolS',
@@ -64,7 +65,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'flower',
+        serie: SERIES.FLOWER,
         materials: []
     }, {
         name: 'Caja sorpresa Tulipán',
@@ -72,7 +73,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'flower',
+        serie: SERIES.FLOWER,
         materials: [{
             ...MATERIALS.TULIP_RED,
             quantity: 5
@@ -86,7 +87,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'flower',
+        serie: SERIES.FLOWER,
         materials: []
     }, {
         name: 'Mesa Viola',
@@ -94,7 +95,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'flower',
+        serie: SERIES.FLOWER,
         materials: []
     }
 ]

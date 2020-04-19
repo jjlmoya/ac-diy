@@ -1,5 +1,6 @@
 import MATERIALS from '@/data/ac/materials.data'
 // import CATEGORY from '@/data/ac/category.data'
+import SERIES from '@/data/ac/series.data'
 
 export default [
     {
@@ -8,7 +9,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.BLOCK,
         materials: []
     }, {
         name: 'Juguete de Construcciones',
@@ -16,7 +17,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.BLOCK,
         materials: [{
             ...MATERIALS.FLEXIBLE_WOOD,
             quantity: 3
@@ -27,7 +28,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.BLOCK,
         materials: []
     }, {
         name: 'Sillita de Construcciones',
@@ -35,7 +36,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.BLOCK,
         materials: [{
             ...MATERIALS.FURNITURE('Juguete de Construcciones'),
             quantity: 1
@@ -49,7 +50,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.BLOCK,
         materials: [{
             ...MATERIALS.FURNITURE('Juguete de Construcciones'),
             quantity: 1
@@ -63,7 +64,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.BLOCK,
         materials: []
     }, {
         name: 'Cadena de Construcciones',
@@ -71,7 +72,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.BLOCK,
         materials: [{
             ...MATERIALS.FURNITURE('Juguete de Construcciones'),
             quantity: 1
@@ -88,7 +89,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.BLOCK,
         materials: [{
             ...MATERIALS.FURNITURE('Juguete de Construcciones'),
             quantity: 1
@@ -102,7 +103,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.BLOCK,
         materials: []
     }, {
         name: 'Mesa de Construcciones',
@@ -110,7 +111,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: SERIES.BLOCK,
         materials: [{
             ...MATERIALS.FURNITURE('Juguete de Construcciones'),
             quantity: 1

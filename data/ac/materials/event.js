@@ -3,6 +3,21 @@ const BAMBU_SPRING = {
     image: 'spring-bamboo.png'
 }
 
+const MAPLE = {
+    name: 'maple',
+    image: 'maple.png'
+}
+
+const FALLEN_LEAVE = {
+    name: 'Hoja caída',
+    image: 'spring-bamboo.png'
+}
+
+const ACORN = {
+    name: 'Bellota',
+    image: 'acorn.png'
+}
+
 const BAMBU_ROOT = {
     name: 'Brote de bambú',
     image: 'bamboo-root.png'
@@ -48,8 +63,37 @@ const CHERRY_PETALS = {
 }
 
 const PINECONE = {
-    name: 'piá',
-    image: ''
+    name: 'piña',
+    image: 'pinecone.png'
+}
+
+const ICE = {
+    name: 'Hielo',
+    image: 'ice.png'
+}
+
+const ELEGANT_MUSHROOM = {
+    name: 'Seta legante',
+    image: 'elegant-mushroom.png'
+}
+
+const FLAT_MUSHROOM = {
+    name: 'Seta delgada',
+    image: 'flat-mushroom.png'
+}
+
+const ROUND_MUSHROOM = {
+    name: 'Seta Redonda',
+    image: 'round-mushroom.png'
+}
+
+const THIN_MUSHROOM = {
+    name: 'Seta Fina',
+    image: 'thin-mushroom.png'
+}
+const TRUFFLE = {
+    name: 'Trufa',
+    image: 'truffle.png'
 }
 
 export default {
@@ -63,5 +107,14 @@ export default {
     SKY_EGG,
     WATER_EGG,
     CHERRY_PETALS,
-    PINECONE
+    PINECONE,
+    MAPLE,
+    FALLEN_LEAVE,
+    ACORN,
+    ICE,
+    ELEGANT_MUSHROOM,
+    FLAT_MUSHROOM,
+    ROUND_MUSHROOM,
+    THIN_MUSHROOM,
+    TRUFFLE
 }
