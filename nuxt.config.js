@@ -23,6 +23,10 @@ export default {
     /*
      ** Global CSS
      */
+    router: {
+        base: '/ac-diy/'
+    },
+
     css: [
         './assets/scss/styles.scss'
     ],
