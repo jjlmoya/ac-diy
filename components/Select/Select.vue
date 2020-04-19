@@ -36,7 +36,7 @@
                 return new SeriesService().getSeries()
             },
             onChangeSeries (event) {
-                window.location.href = '/serie/' + event.target.value
+                window.location.href = '/ac-diy/serie/' + event.target.value
             }
         }
     }
