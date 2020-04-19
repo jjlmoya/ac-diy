@@ -1,6 +1,6 @@
 <template>
     <div class="p-ac p-ac--crafting">
-        <Layout>
+        <Layout :selected="this.$route.params.id">
             <div class="crafting-result">
                 <CraftCard
                     v-for="craft in crafts"

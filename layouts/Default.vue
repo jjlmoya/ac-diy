@@ -2,6 +2,7 @@
     <div class="l-default l-default--background" :class="`${active ? 'is-active' : ''}`">
         <div class="l-default__main">
             <div class="l-default__content">
+                <Select :selected="selected" />
                 <slot />
             </div>
         </div>
@@ -13,11 +14,19 @@
 </style>
 <script>
     import Footer from '@/components/Footer/Default.vue'
+    import Select from '@/components/Select/Select.vue'
 
     export default {
         name: 'DefaultLayout',
         components: {
+            Select,
             Footer
+        },
+        props: {
+            selected: {
+                type: String,
+                default: ''
+            }
         },
         data () {
             return {
