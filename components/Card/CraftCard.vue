@@ -3,10 +3,10 @@
         <div class="craft-card__name">
             {{ name }}
         </div>
-        <img class="craft-card__image" :src="`../ac/crafting/${image}`">
+        <img class="craft-card__image" :src="`${assets}/ac/crafting/${image}`">
         <div class="craft-card__materials">
             <div v-for="material in materials" :key="material.name" class="material__wrap">
-                <img class="material__image" :alt="material.name" :src="`../ac/crafting/${material.image}`">
+                <img class="material__image" :alt="material.name" :src="`${assets}/ac/crafting/${material.image}`">
                 <span>{{ material.quantity }}</span>
             </div>
         </div>
@@ -31,6 +31,10 @@
             image: {
                 type: String,
                 default: ''
+            },
+            assets: {
+                type: String,
+                default: 'https://jjlmoya.github.io/ac-diy/'
             }
         }
     }
