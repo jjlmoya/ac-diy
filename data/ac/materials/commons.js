@@ -28,9 +28,29 @@ const DOLLAR = {
     image: 'dollar.png'
 }
 
+const CORAL = {
+    name: 'Coral',
+    image: 'coral.png'
+}
+
+const CAURI = {
+    name: 'Cauri',
+    image: 'cauri.png'
+}
+
+const SEA_SHELL = {
+    name: 'Caracola de Mar',
+    image: 'sea-shell.png'
+}
+
 const GIANT_CLAM = {
     name: 'Almeja Gigante',
     image: 'giant-clam.png'
+}
+
+const VENUS = {
+    name: 'Peina de venus',
+    image: 'venus.png'
 }
 
 const FOSSIL = {
@@ -141,5 +161,9 @@ export default {
     CLOTH,
     DOLLAR,
     FOSSIL,
-    GIANT_CLAM
+    GIANT_CLAM,
+    VENUS,
+    CORAL,
+    CAURI,
+    SEA_SHELL
 }

@@ -1,5 +1,6 @@
 import MATERIALS from '@/data/ac/materials.data'
 import CATEGORY from '@/data/ac/category.data'
+import SERIES from '@/data/ac/series.data'
 
 const BACKPACK_GRASS = {
     name: 'Mochila de Mimbre',
@@ -7,7 +8,7 @@ const BACKPACK_GRASS = {
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
+    serie: 'grass',
     materials: [{
         ...MATERIALS.HERB,
         quantity: 20
@@ -20,7 +21,7 @@ const BACKPACK_WOOD = {
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
+    serie: 'wood',
     materials: []
 }
 
@@ -30,7 +31,7 @@ const BACKPACK_ACORN = {
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
+    serie: 'acorn',
     materials: []
 }
 
@@ -40,7 +41,7 @@ const BACKPACK_MAPLE = {
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
+    serie: SERIES.MAPLE,
     materials: []
 }
 
@@ -49,8 +50,8 @@ const BACKPACK_SHELL = {
     image: 'BagShoulderShell0.png',
     height: 1,
     width: 1,
-    category: [CATEGORY.CLOTH],
-    serie: 'nook',
+    category: [CATEGORY.CLOTH, CATEGORY.SHELL],
+    serie: SERIES.SHELL,
     materials: []
 }
 
@@ -60,7 +61,7 @@ const BACKPACK_SNOW = {
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
+    serie: SERIES.ICE,
     materials: []
 }
 
@@ -70,7 +71,7 @@ const BACKPACK_STAR = {
     height: 1,
     width: 1,
     category: [CATEGORY.CLOTH],
-    serie: 'nook',
+    serie: SERIES.STAR,
     materials: []
 }
 

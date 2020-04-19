@@ -33,7 +33,32 @@ const SEASON = {
 }
 
 const CLOTH = {
-    name: 'Pared',
+    name: 'Ropa',
+    image: ''
+}
+
+const EVENT = {
+    name: 'Evento',
+    image: ''
+}
+
+const EASTER_EGG = {
+    name: 'Huevo de Pascua',
+    image: ''
+}
+
+const XMAS = {
+    name: 'Navidad',
+    image: ''
+}
+
+const BLOSSOM = {
+    name: 'Cerezo en Flor',
+    image: ''
+}
+
+const SHELL = {
+    name: 'Concha de Mar',
     image: ''
 }
 
@@ -45,5 +70,11 @@ export default {
     WALL_FLOOR,
     CONSUMIBLE,
     SEASON,
-    CLOTH
+    CLOTH,
+    EVENT,
+    EASTER_EGG,
+    XMAS,
+    BLOSSOM,
+    SHELL
+
 }

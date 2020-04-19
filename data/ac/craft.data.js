@@ -58,7 +58,6 @@ const CRAFTS = [
     ...MUSHROOM,
     ...NUT
 ]
-console.log(CRAFTS)
 
 export default CRAFTS
 // Papelera de Madera (el vaso xD): 4 tabla normal

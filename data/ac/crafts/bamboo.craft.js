@@ -7,7 +7,7 @@ export default [
         height: 1,
         width: 1,
         category: [CATEGORY.CLOTH],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 6
@@ -19,7 +19,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 3
@@ -30,7 +30,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 7
@@ -41,7 +41,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 3
@@ -55,7 +55,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: []
     }, {
         name: 'Banco de Bambú',
@@ -63,7 +63,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU,
             quantity: 8
@@ -74,7 +74,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 3
@@ -88,7 +88,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 1
@@ -99,7 +99,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 8
@@ -110,7 +110,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: []
     }, {
         name: 'Altavoz de Bambú',
@@ -118,7 +118,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 3
@@ -132,7 +132,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 7
@@ -146,7 +146,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: []
     }, {
         name: 'Lámpara Brote de B.',
@@ -154,7 +154,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 4
@@ -171,7 +171,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 7
@@ -185,7 +185,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU,
             quantity: 5
@@ -196,7 +196,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 6
@@ -208,7 +208,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 6
@@ -219,7 +219,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU,
             quantity: 6
@@ -230,7 +230,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU_SPRING,
             quantity: 6
@@ -241,7 +241,7 @@ export default [
         height: 1,
         width: 1,
         category: [],
-        serie: 'nook',
+        serie: 'bamboo',
         materials: [{
             ...MATERIALS.BAMBU,
             quantity: 2

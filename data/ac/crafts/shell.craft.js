@@ -8,7 +8,32 @@ export default [
         width: 1,
         category: [],
         serie: 'nook',
-        materials: []
+        materials: [
+            {
+                ...MATERIALS.GIANT_CLAM,
+                quantity: 3
+            },
+            {
+                ...MATERIALS.VENUS,
+                quantity: 3
+            },
+            {
+                ...MATERIALS.SEA_SHELL,
+                quantity: 3
+            },
+            {
+                ...MATERIALS.CORAL,
+                quantity: 3
+            },
+            {
+                ...MATERIALS.CAURI,
+                quantity: 3
+            },
+            {
+                ...MATERIALS.DOLLAR,
+                quantity: 3
+            }
+        ]
     }, {
         name: 'Cama Concha Marina',
         image: 'FtrShellBedW.png',

@@ -1,7 +1,5 @@
 <template>
-    <footer class="footer-default">
-        <BreadCrumbs/>
-    </footer>
+    <footer class="footer-default"></footer>
 </template>
 
 <style lang="scss">@import 'footer.scss';

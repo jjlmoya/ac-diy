@@ -18,6 +18,15 @@
   @import 'crafting.scss';
 </style>
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LV32JQMCF3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LV32JQMCF3');
+</script>
+
 <script>
     import Layout from '@/layouts/Default.vue'
     import CraftCard from '@/components/Card/CraftCard.vue'
